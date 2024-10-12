@@ -1,0 +1,318 @@
+
+<DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,
+	initial-scale=1">
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://
+    fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css?? family-Poppins&display-swap" rel="stylesheet">
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://
+	cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/
+	font-awesome.min.css">
+		<!-- connect style.css -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Desi Delights</title>
+        <link rel="stylesheet" href="hotel.css">
+        <script src="hotel.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+	</head>
+	
+	<body>
+		<!-- hero section begin -->
+		<div id="hero">
+			<div id="hero_content">
+				<h1>Dine Divine</h1>
+				<h2>"Where Every Bite is a Celebration."</h2>
+				<a href="#menu">Menu</a>
+			</div>
+		</div>
+		<!-- hero section End -->
+		<!-- Header section begin -->
+		<div id="header">
+			<nav id="navbar">
+				<h1>Dine Divine</h1>
+				<ul>
+					<li><a href='#hero'>Home</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#chef">Chef</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<div id="Phone">
+					<!-- <a href="tel:+91 7054664125">+91 8767703356</a> -->
+					<div class="social-icons">
+						<a href="https://www.instagram.com/yourprofile" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="https://t.me/yourprofile" target="_blank">
+							<i class="fab fa-telegram"></i>
+						</a>
+						<a href="https://twitter.com/yourprofile" target="_blank">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="https://www.facebook.com/yourprofile" target="_blank">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</div>
+				</div>
+				
+			</nav>
+		</div>
+
+		<!-- Menu Section begin -->
+
+		<div id="menu">
+			<h1 id="section">Menu</h1>
+			<div id="menu_row">
+				<div id="menu_col">
+					<h2>Breakfast</h2>
+					<div class="box" style="background-image: url('sand.jpg');">
+						<div class="description">
+							<h3>Sandwiches</h3>
+							<h4>45$</h4>
+							<input type="checkbox" id="Sandwiches">
+						</div>
+					</div>
+		
+					<div class="box" style="background-image: url('para.jpg');">
+						<div class="description">
+							<h3>Parathas</h3>
+							<h4>38$</h4>
+							<input type="checkbox" id="Parathas">
+						</div>
+					</div>
+		
+					<div class="box" style="background-image: url('chapati-recipe-soft.jpg');">
+						<div class="description">
+							<h3>Chapati</h3>
+							<h4>20$</h4>
+							<input type="checkbox" id="Chapati">
+						</div>
+					</div>
+				</div>
+		
+				<div id="menu_col">
+					<h2>Lunch</h2>
+					<div class="box" style="background-image: url('best biryani in pune lead.webp');">
+						<div class="description">
+							<h3>Biryani</h3>
+							<h4>210$</h4>
+							<input type="checkbox" id="Biryani">
+						</div>
+					</div>
+		
+					<div class="box" style="background-image: url('fish.jpg');">
+						<div class="description">
+							<h3>Fish Fry</h3>
+							<h4>169$</h4>
+							<input type="checkbox" id="Fish_Fry">
+						</div>
+					</div>
+		
+					<div class="box" style="background-image: url('veg.webp');">
+						<div class="description">
+							<h3>Veg Thali</h3>
+							<h4>140$</h4>
+							<input type="checkbox" id="Veg_Thali">
+						</div>
+					</div>
+				</div>
+		
+				<div id="menu_col">
+					<h2>Dinner</h2>
+					<div class="box" style="background-image: url('chicken.jpg');">
+						<div class="description">
+							<h3>Chicken Thali</h3>
+							<h4>550$</h4>
+							<input type="checkbox" id="Chicken_Thali">
+						</div>
+					</div>
+		
+					<div class="box" style="background-image: url('indian-lentil-and-egg-curry-148613-1.jpg');">
+						<div class="description">
+							<h3>Nonveg Mix</h3>
+							<h4>480$</h4>
+							<input type="checkbox" id="Nonveg_Mix">
+						</div>
+					</div>
+		
+					<div class="box" style="background-image: url('paneer-butter-masala-recipe.jpg');">
+						<div class="description">
+							<h3>Paneer Masala</h3>
+							<h4>110$</h4>
+							<input type="checkbox" id="Paneer_Mashala">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+		<div class="submit">
+			<button class="Total" onclick="total()">Total</button>
+			<p id="result"></p>
+			<p id="bill"></p>
+		</div>
+<div id="form">
+<form method="post" action="aadesh.1310t@gmail.com">
+TABLE NUMBER:<input type="text" name="f1" maxlength="5" size="25"><br>
+PHONE NUMBER:<input type="text" name="pw"><br>
+SCAN FOR PAYMENT:<br>
+<img src="WhatsApp Image 2024-10-12 at 16.39.18.jpeg" width="300"><br>
+TRANSACTION ID:<input type="text" name="f1" maxlength="5" size="25"><br>
+<input type="submit" value="SUBMIT">
+<input type="Reset" value="CLEAR ALL">
+</form>
+</div>
+
+		<!-- Chef Section Begin -->
+		<div id="chef">
+			<h1 id="section">Chef</h1>
+			<div id="chef_row">
+				<div class="chef_col">
+					<div id="img">
+						<img src="c1.jpeg">
+					</div>
+					<div>
+						<h4>Lucy</h4>
+					</div>
+				</div>
+				<div class="chef_col">
+					<div id="img">
+						<img src="c2.avif">
+					</div>
+					<div>
+						<h4>Simen</h4>
+					</div>
+				</div>
+				<div class="chef_col">
+					<div id="img">
+						<img src="c3.jpg">
+					</div>
+					<div>
+						<h4>Matt</h4>
+					</div>
+				</div>
+				<div class="chef_col">
+					<div id="img">
+						<img src="c4.png">
+					</div>
+					<div>
+						<h4>Rosee</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- About Section begin-->
+		<div id="about">
+			<section id="about">
+				<h1 id="section">About Us</h1>
+				<div id="about_row">
+					<div class="about_col">
+						<h2>Welcome to Dine Divine</h2>
+						<p>
+							Where culinary dreams come to life! Nestled in the heart of Pune, we are dedicated to serving you an unforgettable dining experience infused with passion, flavor, and a touch of artistry.
+						</p>
+			
+						<h3>Our Story</h3>
+						<p>
+							Founded in <strong>2016</strong> by <strong>Aadesh Thade</strong>, our journey began with a simple vision: to create a welcoming space where people can gather to enjoy exceptional food, warm hospitality, and the joy of shared moments. Over the years, we have transformed into a beloved culinary destination, celebrated for our innovative dishes and commitment to quality.
+						</p>
+			
+						<h3>Our Philosophy</h3>
+						<p>
+							At <strong>Dine Divine</strong>, we believe that food is more than just sustenance; it is an experience that brings people together. Our menu showcases a blend of traditional and contemporary flavors, crafted with the freshest ingredients sourced from local farms and markets. Every dish is a testament to our dedication to quality, creativity, and sustainability.
+						</p>
+			
+						<h3>What Makes Us Unique</h3>
+						<ul class="unique-list">
+							<li><strong>Passionate Culinary Team:</strong> Our talented chefs bring a wealth of experience and creativity, crafting dishes that tantalize your taste buds and celebrate the essence of each ingredient.</li>
+							<li><strong>Exceptional Dining Experience:</strong> From the moment you step through our doors, our attentive staff is committed to providing you with exceptional service, ensuring your visit is nothing short of extraordinary.</li>
+							<li><strong>Community Focused:</strong> We are proud to support our local community by collaborating with nearby farms and artisans. We believe in giving back and creating a positive impact through our culinary endeavors.</li>
+							<li><strong>Diverse Menu Offerings:</strong> Whether you're in the mood for a hearty breakfast, a delightful lunch, or an exquisite dinner, our diverse menu caters to all tastes and dietary preferences, including vegetarian and vegan options.</li>
+						</ul>
+			
+						<h3>Join Us</h3>
+						<p>
+							We invite you to experience the warm ambiance, exceptional food, and welcoming atmosphere of <strong>Dine Divine</strong>. Whether you’re celebrating a special occasion, enjoying a casual meal with friends, or simply indulging in a quiet evening, we are here to create memorable moments for you.
+						</p>
+						<p>
+							Thank you for being a part of our story. We look forward to welcoming you soon!
+						</p>
+					</div>
+					<div class="about_col">
+						<div id="about_img">
+							<img src="landing.avif" alt="About Us Image">
+						</div>
+						<div id="about_img2">
+							<img src="l1avif.avif" alt="Another Aspect of Our Restaurant">
+						</div>
+						<div id="about_img2">
+							<img src="l3.jpg" alt="Another Aspect of Our Restaurant">
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		</div>
+
+		<section id="contact">
+			<h1 id="section">Contact Us</h1>
+			<div id="contact_row">
+				<div class="contact_col">
+					<h2>Get in Touch</h2>
+					<p>If you have any questions, suggestions, or would like to make a reservation, feel free to reach out to us. We look forward to hearing from you!</p>
+					
+					<h3>Contact Information</h3>
+					<ul class="contact_info">
+						<li><strong>Email:</strong> <a href="mailto:aadesh.1310t@gmail.com">aadesh.1310t@gmail.com</a>aadesh.1310t@gmail.com</li>
+						<li><strong>Phone:</strong> <a href="tel:+91 8767703356">+91 8767703356</a>+91 8767703356</li>
+						<li><strong>Address:</strong> Roof-top,123 Foodie Lane, Seasons Mall, Pune</li>
+					</ul>
+				</div>
+				<div class="contact_col">
+					<h2>Contact Form</h2>
+					<form id="contact_form" method="post" action="submit_form.php">
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="name" required>
+		
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required>
+		
+						<label for="message">Message:</label>
+						<textarea id="message" name="message" rows="5" required></textarea>
+		
+						<button type="submit">Send Message</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		
+
+
+		<!-- Footer Section begin -->
+		<div id="footer">
+			<div>
+				<h5>Aadesh Thade
+				</h5>
+			</div><br>
+			<div id="top">
+				<a href="#hero"><i class="fa fa-chevron-circle-up"></i></a>
+			</div>
+		</div>
+		<!-- Footer Section end -->
+
+
+		<script src="script.js"></script>
+
+	</body>
+
+	</html>
